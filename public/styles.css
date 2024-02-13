@@ -15,16 +15,16 @@ body {
      color: #ff8000;
 }
  label {
-     color: #000000;
+     color: #495057;
 }
  .centered-textarea {
      display: block;
      margin: 0 auto;
      width: 100%;
-     min-height: 100px;
+     min-height: 90px;
      padding: 10px;
      box-sizing: border-box;
-     border: 1px solid #ff8c00;
+     border: 3px solid #ff8c00;
      border-radius: 50px;
      resize: none;
  }
@@ -34,8 +34,9 @@ body {
      border-radius: 50px;
 }
  .btn-primary:hover {
-     background-color: #0056b3;
-     border: 1px solid #0056b3;
+     background-color: #c0c0c0;
+     border: 1px solid #c0c0c0;
+     border-radius: 50px;
 }
  .success-message {
      color: green;
