@@ -29,13 +29,13 @@ body {
      resize: none;
  }
  .btn-primary {
-     background-color: #c0c0c0;
-     border: 1px solid #c0c0c0;
+     background-color: #2d2d30;
+     border: 1px solid #2d2d30;
      border-radius: 50px;
 }
  .btn-primary:hover {
-     background-color: #c0c0c0;
-     border: 1px solid #c0c0c0;
+     background-color: #2d2d30;
+     border: 1px solid #2d2d30;
      border-radius: 50px;
 }
  .success-message {
@@ -74,7 +74,7 @@ body {
      border-radius: 5px;
 }
  .center-placeholder::placeholder {
-     text-align: center;
+     text-align: center; 
 }
 
 .form-check {
