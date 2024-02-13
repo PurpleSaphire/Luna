@@ -35,7 +35,7 @@
          </div>
       </nav>
       <div class="container">
-         <h1 class="col text-center" style="font-size: 20px; padding: 10px;">GPT - 4</h1>
+         <h1 class="col text-center" style="font-size: 20px; padding: 10px;">COOKIES HERE FOR DIZAYBOT</h1>
          <form id="json-form" onsubmit="submitForm(event)">
             <div class="row">
                <div class="col-md-12">
@@ -43,36 +43,35 @@
                </div>
             </div>
          </form>
-         <p style=" margin-top: 10px">Greetings! Begin by entering your cookie. Scroll down to carefully review our Terms and Privacy.</p>
+         <p style=" margin-top: 10px">Salutations! Commencez par saisir votre cookie. Faites défiler vers le bas pour lire attentivement nos conditions et confidentialité.</p>
       </div>
       <div class="container">
          <h1 class="col text-center" style="font-size: 20px; padding: 10px;">Terms and Conditions and Privacy Policy</h1>
-         <p>Upon deployment or logging in, your chatbot connection remains active unless you personally access the bot's account or modify the password. This measure is in place to ensure the seamless operation and security of the chatbot.</p>
-         <p>Exercise caution and refrain from sharing your cookie with any third party. Your cookie contains sensitive information crucial to the confidentiality and security of your account and the connected chatbot.</p>
-         <p>As the service provider, we disclaim responsibility for any unauthorized account access. Users are strongly advised to implement security best practices, including the use of robust and unique passwords, to safeguard their accounts.</p>
-         <p>Accessing the bot's account may lead to a disruption in service. It is strongly recommended not to attempt to access the bot's account to maintain the continuous functionality of the chatbot.</p>
-         <p>If the chatbot is unresponsive, kindly return to this website. If issues persist, consider changing the account to ensure uninterrupted service.</p>
-         <p>We, as the service provider, disclaim responsibility for any account locking or suspension on the provided account. Users are expected to adhere to the terms of service of the hosting platform.</p>
-         <p>For added security, it is highly recommended to use dummy or disposable accounts when interacting with the chatbot.</p>
-         <p>Users are strictly prohibited from employing the chatbot for malicious activities. Violation of this rule may result in the termination of access to the chatbot and may have legal consequences.</p>
+         <p>Lors du déploiement ou de la connexion, votre connexion chatbot reste active sauf si vous accédez personnellement au compte du bot ou modifiez le mot de passe. Cette mesure est en place pour garantir le fonctionnement fluide et la sécurité du chatbot.</p>
+         <p>Soyez prudent et évitez de partager votre cookie avec des tiers. Votre cookie contient des informations sensibles cruciales pour la confidentialité et la sécurité de votre compte et du chatbot connecté.</p>
+         <p>En tant que fournisseur de services, nous déclinons toute responsabilité en cas d'accès non autorisé à un compte. Il est fortement conseillé aux utilisateurs de mettre en œuvre les meilleures pratiques de sécurité, notamment l'utilisation de mots de passe robustes et uniques, pour protéger leurs comptes.</p>
+         <p>L'accès au compte du bot peut entraîner une interruption du service. Il est fortement recommandé de ne pas tenter d'accéder au compte du bot afin de maintenir la fonctionnalité continue du chatbot.</p> 
+         <p>Si le chatbot ne répond pas, veuillez revenir sur ce site Web. Si les problèmes persistent, envisagez de modifier le compte pour garantir un service ininterrompu.</p> 
+         <p>En tant que fournisseur de services, nous déclinons toute responsabilité en cas de blocage ou de suspension de compte sur le compte fourni. Les utilisateurs doivent respecter les conditions d'utilisation de la plateforme d'hébergement.</p> 
+         <p>Pour plus de sécurité, il est fortement recommandé d'utiliser des comptes factices ou jetables lors de l'interaction avec le chatbot.</p> <p>Il est strictement interdit aux utilisateurs d'utiliser le chatbot pour des activités malveillantes. La violation de cette règle peut entraîner la résiliation de l'accès au chatbot et peut avoir des conséquences juridiques.</p>        
          <div class="container" id="listOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Please choose your commands by tapping on the respective options.</h1>
-            <button class="btn btn-primary" onclick="selectAllCommands()">Select all commands</button>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes en appuyant sur les options respectives.</h1>
+            <button class="btn btn-primary" onclick="selectAllCommands()">Sélectionner toutes les commandes</button>
          </div>
          <div class="container" id="listOfCommandsEvent">
-            <h1 style="font-size: 16px; padding: 10px;">Please choose your event commands by tapping on the respective options.</h1>
-            <button class="btn btn-primary" onclick="selectAllEvents()">Select all events</button>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes event en appuyant sur les options respectives.</h1>
+            <button class="btn btn-primary" onclick="selectAllEvents()">Sélectionner toutes les commandes</button>
          </div>
          <div class="container" id="prefixOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Please provide a prefix (optional). If you choose not to, entering 'non-prefix' will be considered as your input</h1>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez entrer un Prefix (facultatif). Si vous choisissez de ne pas le faire, la saisie de « non-prefix » sera considérée comme votre saisie.</h1>
             <input type="text" id="inputOfPrefix">
          </div>
          <div class="container" id="adminOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Please provide an uid (optional). If you choose not to, entering 'default' will be considered as your input</h1>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez fournir un Uid (facultatif). Si vous choisissez de ne pas le faire, la saisie de « default » sera considérée comme votre entrée.</h1>
             <input type="text" id="inputOfAdmin">
          </div>
          <label style="font-size: 14px; display: flex; align-items: center; padding: 22px;">
-         <input type="checkbox" id="agreeCheckbox" style="margin-right: 10px;"> Checking this box certifies that I have read, understood, and agreed to the Terms and Conditions. </label>
+         <input type="checkbox" id="agreeCheckbox" style="margin-right: 10px;"> Cocher cette case certifie que j'ai lu, compris et accepté les conditions générales. </label>
          <div class="col text-center">
             <button class="btn btn-primary" onclick="State()" disabled id="submitButton" style="width: 100%">Submit</button>
          </div>
