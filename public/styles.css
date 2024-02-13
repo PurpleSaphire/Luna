@@ -1,10 +1,10 @@
 body {
      padding: 20px;
-     background-color: #ffffff;
+     background-color: #808080;
      font-family: 'Poppins', sans-serif;
 }
  .container {
-     background-color: #ffffff;
+     background-color: #c0c0c0;
      border-radius: 10px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      padding: 20px;
@@ -12,10 +12,10 @@ body {
      margin-bottom: 20px;
 }
  h1 {
-     color: #343a40;
+     color: #ff8000;
 }
  label {
-     color: #495057;
+     color: #ff8c00;
 }
  .centered-textarea {
      display: block;
