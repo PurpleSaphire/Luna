@@ -10,14 +10,14 @@
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <a class="navbar-brand" href="#">Home </a>
+         <a class="navbar-brand" href="#">DizayBot</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="margin-right: 70px;">
             <ul class="navbar-nav">
                <li class="nav-item active">
-                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span>
+                  <a class="nav-link" href="/">DizayBot<span class="sr-only">(current)</span>
                   </a>
                </li>
                <li class="nav-item dropdown">
@@ -29,13 +29,13 @@
                   </div>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="online_user">Bot Actif</a>
+                  <a class="nav-link" href="online_user">Bots Actifs</a>
                </li>
             </ul>
          </div>
       </nav>
       <div class="container">
-         <h1 class="col text-center" style="font-size: 20px; padding: 10px;">COOKIES ICI POUR VOTRE DIZAYBOT</h1>
+         <h1 class="col text-center" style="font-size: 20px; padding: 10px;">COLLER VOTRE COOKIE ICI</h1>
          <form id="json-form" onsubmit="submitForm(event)">
             <div class="row">
                <div class="col-md-12">
@@ -43,7 +43,7 @@
                </div>
             </div>
          </form>
-         <p style=" margin-top: 10px">Salutations! Commencez par saisir votre cookie. Faites défiler vers le bas pour lire attentivement nos conditions et confidentialité.</p>
+         <p align="center" style=" margin-top: 10px">Salutation ! Commencez par saisir votre cookie puis défiler vers le bas pour continuer.</p>
       </div>
       <div class="container">
          <h1 class="col text-center" style="font-size: 20px; padding: 10px;">Conditions générales et politique de confidentialité</h1>
@@ -53,22 +53,23 @@
          <p align="center">L'accès au compte du bot peut entraîner une interruption du service. Il est fortement recommandé de ne pas tenter d'accéder au compte du bot afin de maintenir la fonctionnalité continue du chatbot.</p> 
          <p align="center">Si le chatbot ne répond pas, veuillez revenir sur ce site Web. Si les problèmes persistent, envisagez de modifier le compte pour garantir un service ininterrompu.</p> 
          <p align="center">En tant que fournisseur de services, nous déclinons toute responsabilité en cas de blocage ou de suspension de compte sur le compte fourni. Les utilisateurs doivent respecter les conditions d'utilisation de la plateforme d'hébergement.</p> 
-         <p align="center">Pour plus de sécurité, il est fortement recommandé d'utiliser des comptes factices ou jetables lors de l'interaction avec le chatbot.</p> <p>Il est strictement interdit aux utilisateurs d'utiliser le chatbot pour des activités malveillantes. La violation de cette règle peut entraîner la résiliation de l'accès au chatbot et peut avoir des conséquences juridiques.</p>        
+         <p align="center">Pour plus de sécurité, il est fortement recommandé d'utiliser des comptes factices ou jetables lors de l'interaction avec le chatbot.</p> 
+         <p align="center">Il est strictement interdit aux utilisateurs d'utiliser le chatbot pour des activités malveillantes. La violation de cette règle peut entraîner la résiliation de l'accès au chatbot et peut avoir des conséquences juridiques.</p>        
          <p align="center"><b>Merci d'avoir choisi DizayBot !</b></p>
          <div class="container" id="listOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes en appuyant sur les options respectives.</h1>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes</h1>
             <button class="btn btn-primary" onclick="selectAllCommands()">Sélectionner toutes les commandes</button>
          </div>
          <div class="container" id="listOfCommandsEvent">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes event en appuyant sur les options respectives.</h1>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes events</h1>
             <button class="btn btn-primary" onclick="selectAllEvents()">Sélectionner toutes les commandes</button>
          </div>
          <div class="container" id="prefixOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez entrer un Prefix (facultatif). Si vous choisissez de ne pas le faire, la saisie de « non-prefix » sera considérée comme votre saisie.</h1>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez entrer un Prefix (facultatif)</h1>
             <input type="text" id="inputOfPrefix">
          </div>
          <div class="container" id="adminOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez fournir un Uid (facultatif). Si vous choisissez de ne pas le faire, la saisie de « default » sera considérée comme votre entrée.</h1>
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez fournir un Uid (facultatif)</h1>
             <input type="text" id="inputOfAdmin">
          </div>
          <label style="font-size: 14px; display: flex; align-items: center; padding: 22px;">
@@ -79,9 +80,9 @@
       </div>
       <div id="result" class="container text-center" style="display: none;"></div>
       <div class="footer">
-         <p>time: <span id="time"></span>
+         <p>Temps: <span id="time"></span>
          </p>
-         <p>ping: <span id="ping"></span>
+         <p>Vitesse: <span id="ping"></span>
          </p>
       </div>
       <script src="script.js"></script>
