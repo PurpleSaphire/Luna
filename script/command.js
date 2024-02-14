@@ -1,12 +1,11 @@
 module.exports.config = {
     name: "cmd",
     version: "1.0.0",
-    hasPermssion: 2,
+    role: 2,
     credits: "Mirai Team",
     description: "Manage/Control all bot modules",
-    usePrefix: true,
-    commandCategory: "Admin",
-    usages: "[load/unload/loadAll/unloadAll/info] [name module]",
+    hasPrefix: true,
+    usage: "[load/unload/loadAll/unloadAll/info] [name module]",
     cooldowns: 5,
     dependencies: {
         "fs-extra": "",
