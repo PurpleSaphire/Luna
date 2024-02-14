@@ -1,12 +1,11 @@
 module.exports.config = {
 	name: "setmoney",
 	version: "0.0.1",
-	hasPermssion: 2,
+	role: 2,
 	credits: "Zia Rein",
 	description: "change the amount of yourself or the person tagged",
-  usePrefix: true,
-	commandCategory: "system",
-	usages: "setmoney [Tag]",
+         hasPrefix: true,
+	usage: "setmoney [Tag]",
 	cooldowns: 5,
 	info: [
 		{
