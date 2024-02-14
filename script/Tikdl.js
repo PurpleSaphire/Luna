@@ -4,12 +4,11 @@ const axios = require('axios');
 module.exports.config = {
   name: "tikdl",
   version: "1.0.",
-  hasPermission: 0,
+  role: 0,
   credits: "",
   description: "tiktok video download",
-  usePrefix: false,
-  commandCategory: "tools",
-  usages: "tikdl <url> <mp4-basic/mp4-hd/mp3>",
+  hasPrefix: false,
+  usage: "tikdl <url> <mp4-basic/mp4-hd/mp3>",
   cooldowns: 2,
 };
 
