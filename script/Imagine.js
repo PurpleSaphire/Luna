@@ -27,7 +27,7 @@ module.exports.run = async ({ api, event, args }) => {
   fs.writeFileSync(path, Buffer.from(poli, "utf-8"));
     setTimeout(function() {
   api.sendMessage({
-    body: "✅ TsantaBot: Voici votre image",
+    body: "✅ Voici votre image",
     attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path));
     }, 5000);
     } catch (error) {
