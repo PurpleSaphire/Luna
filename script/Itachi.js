@@ -7,12 +7,12 @@ const herc = new Hercai();
 module.exports.config = {
   name: 'itachi',
   version: '1.2.4',
-  hasPermssion: 0,
+  aliases:["uchiha"],
+  role: 0,
   credits: 'Junied Ampaso',
   description: 'An Ai!',
-  usePrefix: false,
-  commandCategory: 'CharacterAI',
-  usages: 'dan [prompt]/clear',
+  hasPrefix: false,
+  usage: 'dan [prompt]/clear',
   cooldowns: 5,
 };
 
