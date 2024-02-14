@@ -7,8 +7,9 @@ const yts = require("yt-search");
 
 module.exports = {
   config: {
-    name: "video",
+    name: "youtube",
     version: "1.0",
+    hasPrefix: false,
     role: 0,
     credits: "TsantaBot",
     cooldown: 500,
