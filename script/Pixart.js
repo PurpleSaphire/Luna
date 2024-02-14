@@ -42,7 +42,7 @@ module.exports = {
     let mid = event.messageID;
 
     try {
-      api.sendMessage("⏳ | TsantaBot_pixart est en train d'imaginer votre texte... \n《Tuto: tapez Pixart》", tid, mid);
+      api.sendMessage("⏳ | pixart est en train d'imaginer votre texte... \n《Tuto: tapez Pixart》", tid, mid);
 
       let enctxt = encodeURIComponent(prompt);
       let url = `http://ger2-1.deploy.sbs:1792/pixart?prompt=${enctxt}&styles=${model}`;
