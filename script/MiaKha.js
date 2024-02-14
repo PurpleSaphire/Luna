@@ -7,12 +7,12 @@ const herc = new Hercai();
 module.exports.config = {
   name: 'mia',
   version: '1.2.4',
-  hasPermssion: 0,
+  aliases: ["khalifa"],
+  role: 0,
   credits: 'Zetsu',
   description: 'An Ai!',
-  usePrefix: false,
-  commandCategory: 'CharacterAI',
-  usages: 'Mia [prompt]/clear',
+  hasPrefix: false,
+  usage: 'Mia [prompt]/clear',
   cooldowns: 5,
 };
 
