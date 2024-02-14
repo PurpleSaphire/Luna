@@ -1,12 +1,11 @@
  module.exports.config = {
   name: "nudx",
   version: "1.0.0",
-  hasPermssion: 0,
+  role: 0,
   credits: "Binee",
   description: "",
-  commandCategory: "nsfw",
-  usePrefix: false,
-  usages: "anh18",
+  hasPrefix: false,
+  usage: "anh18",
   cooldowns: 5,
   dependencies: {
     "request":"",
