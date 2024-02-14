@@ -1,12 +1,11 @@
 module.exports.config = {
  name: "approve",
  version: "1.0.2",
- hasPermssion: 2,
+ role: 2,
  credits: "DungUwU",
  description: "approve list/del/pending",
- commandCategory: "system",
- usePrefix: false,
- usages: "approve list/del/pending",
+ hasPrefix: false,
+ usage: "approve list/del/pending",
  cooldowns: 5
 };
 
