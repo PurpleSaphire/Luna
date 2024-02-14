@@ -1,12 +1,11 @@
 module.exports.config = {
 	name: "money",
 	version: "1.0.2",
-	hasPermssion: 0,
+	role: 0,
 	credits: "Mirai Team",
 	description: "Check the amount of yourself or the person tagged",
-	usePrefix: false,
-  commandCategory: "utility",
-	usages: "[Tag]",
+	hasPrefix: false,
+	usage: "[Tag]",
 	cooldowns: 5
 };
 
