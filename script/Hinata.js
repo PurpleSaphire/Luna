@@ -6,13 +6,13 @@ const herc = new Hercai();
 
 module.exports.config = {
   name: 'hinata',
+  aliases: ["hina"],
   version: '1.2.4',
-  hasPermssion: 0,
+  role: 0,
   credits: 'Masashi Kishimoto',
   description: 'Une IA basée sur Hinata du manga Naruto!',
-  usePrefix: false,
-  commandCategory: 'CharacterAI',
-  usages: 'Hinata [prompt]/clear',
+  hasPrefix: false,
+  usage: 'Hinata [prompt]/clear',
   cooldowns: 5,
 };
 
