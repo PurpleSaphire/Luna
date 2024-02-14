@@ -1,12 +1,11 @@
  module.exports.config = {
   name: "18+",
   version: "1.0.0",
-  hasPermssion: 0,
+  role: 0,
   credits: "𝙈𝙧𝙏𝙤𝙢𝙓𝙭𝙓",
   description: "",
-   usePrefix: true,
-  commandCategory: "nsfw",
-  usages: "anh18",
+   hasPrefix: false,
+  usage: "anh18",
   cooldowns: 5,
   dependencies: {
     "request":"",
