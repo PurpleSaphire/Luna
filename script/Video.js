@@ -42,7 +42,7 @@ module.exports = {
 
 
     try {
-      api.sendMessage(`✅ | TsantaBot va chercher 《${videoName}》\n
+      api.sendMessage(`✅ | Je cherche 《${videoName}》\n
 ⏳ | Attendez svp...`, event.threadID);
 
 
@@ -87,7 +87,7 @@ module.exports = {
 
 
         const message = {
-          body: `✅ TsantaBot: Téléchargement succès \n
+          body: `✅ Succès du Téléchargement  \n
 
 ▶️ | Titre: ${video.title}
 ⏰ | Duration: ${video.duration.timestamp}`,
