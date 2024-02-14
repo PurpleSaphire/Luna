@@ -2,14 +2,13 @@ const axios = require("axios");
 const fs = require("fs");
 
 module.exports.config = {
-  name: "Midjourney",
+  name: "midjourney",
   version: "1.3",
-  hasPermission: 0,
+  role: 0,
   credits: "Hazeyy",
   description: "( 𝙼𝚒𝚍𝚓𝚘𝚞𝚛𝚗𝚎𝚢 𝚟4 )",
-  commandCategory: "𝚗𝚘 𝚙𝚛𝚎𝚏𝚒𝚡",
-  usePrefix: false,
-  usages: "( 𝙼𝚘𝚍𝚎𝚕 - 𝙼𝚒𝚍𝚓𝚘𝚞𝚛𝚗𝚎𝚢 𝚟4 )",
+  hasPrefix: false,
+  usage: "( 𝙼𝚘𝚍𝚎𝚕 - 𝙼𝚒𝚍𝚓𝚘𝚞𝚛𝚗𝚎𝚢 𝚟4 )",
   cooldowns: 3,
 };
 
