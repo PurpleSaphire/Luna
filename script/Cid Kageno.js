@@ -7,12 +7,12 @@ const herc = new Hercai();
 module.exports.config = {
   name: 'shadow',
   version: '1.2.4',
-  hasPermssion: 0,
+  aliases: ["cid"],
+  role: 0,
   credits: 'Zetsu',
   description: 'An Ai!',
-  usePrefix: false,
-  commandCategory: 'CharacterAI',
-  usages: 'Cid [prompt]/clear',
+  hasPrefix: fase,
+  usage: 'Cid [prompt]/clear',
   cooldowns: 5,
 };
 
