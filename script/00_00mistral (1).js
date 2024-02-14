@@ -3,12 +3,11 @@ const axios = require('axios');
 module.exports.config = {
  name: "mistral",
  version: "1.0.0",
- hasPermssion: 0,
+ role: 0,
  credits: "hazey", //created by cliff
- usePrefix: false,
+ hasPrefix: false,
  description: "Mistral by hazey",
- commandCategory: "ai",
- usages: "[ask]",
+ usage: "[ask]",
  cooldowns: 2,
 };
 
