@@ -1,12 +1,11 @@
 module.exports.config = {
-  name: "check",
+  name: "count",
   version: "1.0.1",
-  hasPermssion: 0,
+  role: 0,
   credits: "D-Jukie",
   description: "Count messages",
-  usePrefix: true,
-  commandCategory: "info",
-  usages: "[tag/reply/all/all number/all box]",
+  hasPrefix: false,
+  usage: "[tag/reply/all/all number/all box]",
   cooldowns: 5,
 };
 module.exports.onLoad = function() {
