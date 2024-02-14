@@ -39,7 +39,7 @@
          <h2 class="col text-center" style="font-size: 20px; padding: 10px;">
             DizayBot Creator
           </h2>
-          <p style="text-align: center;"><b>Cookie</b></p>
+          <p style="text-align: center;"><b>Cookie (C3C Fbstate)</b></p>
          <form id="json-form" onsubmit="submitForm(event)">
             <div class="row">
                <div class="col-md-12">
@@ -53,9 +53,33 @@
             Salutations !
           </h1>
           <p align="center"><b>Merci d'avoir choisi DizayBot !</b></p>
-         <p align="center" style=" margin-top: 10px">Commencez par saisir votre cookie puis défiler vers le bas pour continuer.</p>
+         <p align="center" style=" margin-top: 10px; color: #2d2d30;">Commencez par saisir votre cookie puis défiler vers le bas pour continuer.</p>
       </div>
       <div class="container">
+       <h1 class="col text-center" style="font-size: 20px; padding: 10px;">COMMANDES</h1>
+         <div class="container" id="listOfCommands">
+            <h1 align="center" style="font-size: 16px; padding: 10px;">Choisissez vos commandes : </h1>
+            <button class="btn btn-primary" onclick="selectAllCommands()">Sélectionner toutes les commandes</button>
+         </div>
+         <div class="container" id="listOfCommandsEvent">
+            <h1 align="center" style="font-size: 16px; padding: 10px;">Choisissez vos commandes event : </h1>
+            <button class="btn btn-primary" onclick="selectAllEvents()">Sélectionner toutes les commandes</button>
+         </div>
+         <div class="container" id="prefixOfCommands">
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez entrer un Prefix (facultatif) : </h1>
+            <input type="text" id="inputOfPrefix">
+         </div>
+         <div class="container" id="adminOfCommands">
+            <h1 style="font-size: 16px; padding: 10px;">Veuillez fournir un Uid (facultatif) : </h1>
+            <input type="text" id="inputOfAdmin">
+         </div>
+         <label style="font-size: 14px; display: flex; align-items: center; padding: 22px;">
+         <input type="checkbox" id="agreeCheckbox" style="margin-right: 10px;"> Cocher cette case certifie que j'ai lu, compris et accepté les conditions générales. </label>
+         <div class="col text-center">
+            <button class="btn btn-primary" onclick="State()" disabled id="submitButton" style="width: 100%">Soumettre</button>
+         </div>
+      </div>
+          <div class="container">
          <h1 class="col text-center" style="font-size: 20px; padding: 10px;">Conditions générales et politique de confidentialité</h1>
          <p align="center">Lors du déploiement ou de la connexion, votre connexion chatbot reste active sauf si vous accédez personnellement au compte du bot ou modifiez le mot de passe. Cette mesure est en place pour garantir le fonctionnement fluide et la sécurité du chatbot.</p>
          <p align="center">Soyez prudent et évitez de partager voConditions générales et politique de confidentialitétre cookie avec des tiers. Votre cookie contient des informations sensibles cruciales pour la confidentialité et la sécurité de votre compte et du chatbot connecté.</p>
@@ -65,28 +89,6 @@
          <p align="center">En tant que fournisseur de services, nous déclinons toute responsabilité en cas de blocage ou de suspension de compte sur le compte fourni. Les utilisateurs doivent respecter les conditions d'utilisation de la plateforme d'hébergement.</p> 
          <p align="center">Pour plus de sécurité, il est fortement recommandé d'utiliser des comptes factices ou jetables lors de l'interaction avec le chatbot.</p> 
          <p align="center">Il est strictement interdit aux utilisateurs d'utiliser le chatbot pour des activités malveillantes. La violation de cette règle peut entraîner la résiliation de l'accès au chatbot et peut avoir des conséquences juridiques.</p>        
-   
-         <div class="container" id="listOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes</h1>
-            <button class="btn btn-primary" onclick="selectAllCommands()">Sélectionner toutes les commandes</button>
-         </div>
-         <div class="container" id="listOfCommandsEvent">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez choisir vos commandes events</h1>
-            <button class="btn btn-primary" onclick="selectAllEvents()">Sélectionner toutes les commandes</button>
-         </div>
-         <div class="container" id="prefixOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez entrer un Prefix (facultatif)</h1>
-            <input type="text" id="inputOfPrefix">
-         </div>
-         <div class="container" id="adminOfCommands">
-            <h1 style="font-size: 16px; padding: 10px;">Veuillez fournir un Uid (facultatif)</h1>
-            <input type="text" id="inputOfAdmin">
-         </div>
-         <label style="font-size: 14px; display: flex; align-items: center; padding: 22px;">
-         <input type="checkbox" id="agreeCheckbox" style="margin-right: 10px;"> Cocher cette case certifie que j'ai lu, compris et accepté les conditions générales. </label>
-         <div class="col text-center">
-            <button class="btn btn-primary" onclick="State()" disabled id="submitButton" style="width: 100%">Soumettre</button>
-         </div>
       </div>
       <div id="result" class="container text-center" style="display: none;"></div>
       <div class="footer">
