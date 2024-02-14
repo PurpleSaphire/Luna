@@ -3,12 +3,11 @@ const axios = require('axios');
 module.exports.config = {
   name: "blue",
   version: "1.0.0",
-  hasPermission: 0,
+  role: 0,
   credits: "Jonell Magallanes",
   description: "cmd ai powered by blue",
-  usePrefix: false,
-  commandCategory: "ai",
-  usages: "blue [your content]",
+  hasPrefix: false,
+  usage: "blue [your content]",
   cooldowns: 10
 };
 
