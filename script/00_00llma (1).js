@@ -3,12 +3,11 @@ const axios = require('axios');
 module.exports.config = {
  name: 'llma',
  version: '1.0',
- hasPermission: 0,
+ role: 0,
  credits: 'Aliester Crowley',
  description: 'Generate text responses using LLaMA 2 70B',
- usePrefix: false,
- commandCategory: 'ai',
- usages: 'llama {prompt}',
+ hasPrefix: false,
+ usage: 'llama {prompt}',
  cooldowns: 0,
 };
 
