@@ -2,7 +2,7 @@ module.exports.config = {
   name: "imagine",
   version: "1.0.0",
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   credits: "TsantaBot",
   description: "generate image from polination.",
   usages: "poli [promt]",
