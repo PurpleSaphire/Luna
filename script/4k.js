@@ -4,12 +4,12 @@ const fs = require('fs-extra');
 module.exports.config = {
   name: "4k",
   version: "2.2",
-  hasPermssion: 0,
+  aliases: ["remini"],
+  role: 0,
   credits: "Hazeyy",
-  usePrefix: false,
+  hasPrefix: false,
   description: "( 𝚁𝚎𝚖𝚒𝚗𝚒 )",
-  commandCategory: "𝚗𝚘 𝚙𝚛𝚎𝚏𝚒𝚡",
-  usages: "Image-Edit",
+  usage: "Image-Edit",
   cooldowns: 2,
 };
 
