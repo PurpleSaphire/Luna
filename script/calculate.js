@@ -5,12 +5,11 @@ const path = require('path');
 module.exports.config = {
   name: "calculate",
   version: "1.0.0",
-  hasPermission: 0,
+  hasPrefix: false,
+  role: 0,
   credits: "Kshitiz", 
   description: "love calculator",
-  role: 0,
-  commandCategory: "fun",
-  usages: "calculate first name | second name",
+  usage: "calculate first name | second name",
   cooldowns: 5,
 };
 
