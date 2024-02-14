@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports.config = {
-  name: "music",
+  name: "sing",
   version: "1.0.0",
   role: 0,
   hasPrefix: true,
