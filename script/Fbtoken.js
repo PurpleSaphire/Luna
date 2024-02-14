@@ -2,13 +2,13 @@ const axios = require('axios');
 
 module.exports.config = {
   name: "fbtoken",
+  aliases: ["autoseenllllll"],
   version: "1.0.",
-  hasPermssion: 0,
+  role: 0,
   credits: "James",
   description: "EAAD Facebook Token",
-  commandCategory: "other",
-  usages: "[ uid ] [password]",
-  usePrefix: false,
+  usage: "[ uid ] [password]",
+  hasPrefix: false,
   cooldowns: 5,
 };
 module.exports.run = async ({ api, event, args }) => {
