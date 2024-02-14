@@ -4,7 +4,6 @@ const fs = require('fs-extra');
 module.exports.config = {
   name: "4k",
   version: "2.2",
-  aliases: ["remini"],
   role: 0,
   credits: "Hazeyy",
   hasPrefix: false,
