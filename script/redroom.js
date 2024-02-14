@@ -7,12 +7,11 @@ const cooldowns = {};
 module.exports.config = {
   name: "redroomv2",
   version: "1.5.8",
-  hasPermssion: 0,
+  role: 0,
   credits: "Hazeyy",
-  usePrefix: false,
+  hasPrefix: false,
   description: "( 𝚁𝚎𝚍𝚛𝚘𝚘𝚖 2 )",
-  commandCategory: "nsfw",
-  usages: "( 𝚁𝚎𝚍𝚛𝚘𝚘𝚖 𝚏𝚘𝚛 𝚖𝚊𝚗𝚢𝚊𝚔 𝚘𝚗𝚕𝚢 )",
+  usage: "( 𝚁𝚎𝚍𝚛𝚘𝚘𝚖 𝚏𝚘𝚛 𝚖𝚊𝚗𝚢𝚊𝚔 𝚘𝚗𝚕𝚢 )",
   cooldowns: 10,
 };
 
