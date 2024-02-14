@@ -3,7 +3,7 @@ module.exports.config = {
   name: "sing",
   version: "1.0.0",
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   aliases: ['play'],
   usage: 'Music [promt]',
   description: 'Search music in youtube',
