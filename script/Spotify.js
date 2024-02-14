@@ -4,12 +4,12 @@ const fs = require('fs');
 module.exports.config = {
   name: "spotify",
   version: "69",
-  hasPermission: 0,
+  aliases: ["spoty"],
+  role: 0,
   credits: "Kshitiz",
   description: "play song from spotify",
-  usages: "Spotify <title>",
-  usePrefix: false,
-  commandCategory: "music",
+  usage: "Spotify <title>",
+  hasPrefix: false,
   cooldowns: 0
 };
 
