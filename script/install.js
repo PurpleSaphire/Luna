@@ -4,12 +4,11 @@ const path = require("path");
 module.exports.config = {
   name: "install",
   version: "1.0.2",
-  hasPermission: 0,
+  role: 0,
   credits: "YenzyJS", //Don't Change cedits Mwuahhps
   description: "install a cmd using code but don't forget to put a exports.run to send a code and I'll fix the code. If there's no module in exports.run, it will be module.exports.run",
-  usePrefix: true,
-  commandCategory: "Admin",
-  usages: ".install <name> <code>",
+  hasPrefix: true,
+  usage: ".install <name> <code>",
   cooldowns: 5,
 };
 
