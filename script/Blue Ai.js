@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports.config = {
-  name: "blue",
+  name: "Mia",
   version: "1.0.0",
   role: 0,
   credits: "Jonell Magallanes",
@@ -18,7 +18,7 @@ module.exports.run = async function ({ api, event, args }) {
     return api.sendMessage("Please Provide your question with blue 🔵", event.threadID, event.messageID);
   }
 
-  api.sendMessage("Blue AI is typing...", event.threadID, event.messageID); 
+  api.sendMessage("Mia AI cherche votre réponse...", event.threadID, event.messageID); 
     
   const apiUrl = `https://bluerepoapislasttry.onrender.com/hercai?content=${content}`;
 
