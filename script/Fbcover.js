@@ -1,11 +1,12 @@
 module.exports.config = {
-name: "fbcoverv3",
+name: "fbcover",
+aliases: ["cover"],
 version: "1.0.0",
-hasPermssion: 0,
+role: 0,
 credits: "MR CHAND",
-description: "Create a facebook cover photo",
-commandCategory: "Image-Edit",
-usePrefix: false,
+description: "Fbcover",
+hasPrefix: false,
+usage : "fn cover",
 cooldowns: 0,
 dependencies: {
     "fs-extra": "",
