@@ -1,12 +1,12 @@
 module.exports.config = {
   name: 'removebg',
   version: '1.1.1',
-  hasPermission: 0,
+  role: 0,
   credits: 'fixed by Jonell',
   description: 'Edit photo',
-  usePrefix: false,
+  hasPrefix: false,
   commandCategory: 'Image-Edit',
-  usages: 'Reply images or URL images',
+  usage: 'Reply images or URL images',
   cooldowns: 2,
   dependencies: {
     'form-data': '',
