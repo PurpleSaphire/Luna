@@ -9,7 +9,7 @@ module.exports = {
     version: "2.0",
     cooldown: 260,
     role: 0,
-    hasPrefix:true,
+    hasPrefix: false,
     shortDescription: {
       en: ""
     },
