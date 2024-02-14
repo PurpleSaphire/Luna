@@ -2,12 +2,11 @@ var mysterious = "Siegfried Sama";
 module.exports.config = {
   name: "hentail",
   version: "1.0.0",
-  hasPermssion: 0,
+  role: 0,
   credits: `${mysterious}`,
   description: "bawal sa inosente",
-  commandCategory: "nsfw",
-  usePrefix: false,
-  usages: " [random hentai gifs] ",
+  hasPrefix: false,
+  usage: " [random hentai gifs] ",
   cooldowns: 3,
   dependencies: {
     "request":"",
