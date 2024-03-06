@@ -171,7 +171,7 @@ function toggleCheckbox() {
 function selectAllCommands() {
   const box = [{
     input: '.form-check-input.commands',
-    array: Commands[0].commands
+    array:Commands[0].commands
   }];
   box.forEach(({
     input,
